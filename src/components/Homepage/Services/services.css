@@ -1,0 +1,43 @@
+#special_image {
+  width: 344px;
+  height: 344px;
+  margin-bottom: 2rem;
+}
+
+.speical_class {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.services-title {
+  font-size: 3rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+  margin-bottom: 2rem;
+  color: rgba(1, 1, 1, 1);
+}
+
+.service-p {
+  font-size: 2.5rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+  color: rgba(1, 1, 1, 1);
+}
+
+.green-service {
+  color: olivedrab;
+}
+
+.service-title {
+  font-size: 2.5rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+  color: rgba(0, 0, 0, 0.25);
+}

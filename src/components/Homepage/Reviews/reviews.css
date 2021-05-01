@@ -1,0 +1,74 @@
+.rev-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin: auto;
+  max-width: 100%;
+  text-align: center;
+  background-color: #fefdf9;
+}
+
+.review-title {
+  font-size: 3.5rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+  color: rgba(1, 1, 1, 1);
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review {
+  margin: 0 1rem;
+  max-width: 350px;
+  flex: 1;
+}
+
+.head-review {
+  margin: 1.75rem auto;
+  width: 200px;
+  height: 200px;
+}
+
+.review-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.body-review {
+  background-color: #fefdf9;
+  box-shadow: 10px 10px 10px 10px #ccc;
+  padding: 2.5rem;
+}
+
+.name-review {
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.desc-review {
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 678px) {
+  .review {
+    margin-top: 1.5rem;
+  }
+}
+
+.review-flowers {
+  color: olivedrab;
+  font-size: 2rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+}

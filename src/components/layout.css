@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&family=Dosis&family=Merriweather&family=Montserrat&family=Raleway&family=Roboto&display=swap%27");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.default-background {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(315deg, #ffffff 0%, #414141 74%);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  padding: 130px 0;
+  height: 100%;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 100px;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+
+.home-title {
+  padding: 130px 0;
+  height: 100%;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 120px;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+
+.subtitle {
+  font-size: 60px;
+  color: white;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  display: block;
+  font-weight: bold;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html,
+body {
+  outline: none;
+}
+:focus {
+  outline: none;
+}
+
+button {
+  font-family: "Roboto";
+}
+
+textarea {
+  resize: none;
+}
+
+/* Shop */
+
+.img_container:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  max-height: 420px;
+  background: linear-gradient(white, transparent);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: olivedrab;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+/* Register */
+
+.register-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 8em 0;
+}
+
+@media (max-width: 600px) {
+  .register-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.register-img {
+  width: 40%;
+  background-image: url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/register.jpg?raw=true");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-title {
+  font-size: 5rem;
+  justify-content: center;
+  line-height: 0.8em;
+  margin-bottom: 2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1rem;
+  margin-top: 0;
+}
+
+.flowers {
+  color: olivedrab;
+  font-size: 1.5rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+}
+
+.form-group {
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Login */
+
+.login-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 9em 0;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.login-img {
+  width: 40%;
+  background-image: url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/login.jpg?raw=true");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-title {
+  font-size: 5rem;
+  justify-content: center;
+  line-height: 0.8em;
+  margin-bottom: 2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+  margin-top: 0;
+}
+
+.login-form-group {
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Reset password */
+
+.reset-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 9em 0;
+}
+
+@media (max-width: 600px) {
+  .forgot-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.reset-img {
+  width: 40%;
+  background-image: url("https://github.com/tessa-woodard/urban-roots-revised/blob/main/src/assets/reset-password.jpg?raw=true");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reset-title {
+  font-size: 5rem;
+  justify-content: center;
+  line-height: 0.8em;
+  margin-bottom: 2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+  margin-bottom: 5rem;
+}
+
+.reset-flowers {
+  color: olivedrab;
+  font-size: 2rem;
+  justify-content: center;
+  line-height: 0.5em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.1px;
+}
+
+.reset-form-group {
+  line-height: 2rem;
+  padding-bottom: 4rem;
+}
+
+/* 404 page */
+
+@keyframes floating {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  45% {
+    transform: translate3d(0, -10%, 0);
+  }
+  55% {
+    transform: translate3d(0, -10%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes floatingShadow {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(0.85);
+  }
+  55% {
+    transform: scale(0.85);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.error-container {
+  font-family: "Varela Round", sans-serif;
+  color: #9b9b9b;
+  position: relative;
+  height: 95vh;
+  text-align: center;
+  font-size: 16px;
+  background-color: #f7f7f7;
+}
+.error-container h1 {
+  font-size: 32px;
+  margin-top: 32px;
+}
+.boo-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.boo {
+  width: 160px;
+  height: 184px;
+  background-color: #f7f7f7;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3.3939393939px solid #9b9b9b;
+  border-bottom: 0;
+  overflow: hidden;
+  border-radius: 80px 80px 0 0;
+  box-shadow: -16px 0 0 2px rgba(234, 234, 234, 0.5) inset;
+  position: relative;
+  padding-bottom: 32px;
+  animation: floating 3s ease-in-out infinite;
+}
+.boo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -18.8235294118px;
+  bottom: -8.3116883117px;
+  width: calc(100% + 32px);
+  height: 32px;
+  background-repeat: repeat-x;
+  background-size: 32px 32px;
+  background-position: left bottom;
+  background-image: linear-gradient(-45deg, #f7f7f7 16px, transparent 0),
+    linear-gradient(45deg, #f7f7f7 16px, transparent 0),
+    linear-gradient(-45deg, #9b9b9b 18.8235294118px, transparent 0),
+    linear-gradient(45deg, #9b9b9b 18.8235294118px, transparent 0);
+}
+.boo .face {
+  width: 24px;
+  height: 3.2px;
+  border-radius: 5px;
+  background-color: #9b9b9b;
+  position: absolute;
+  left: 50%;
+  bottom: 56px;
+  transform: translateX(-50%);
+}
+.boo .face::before,
+.boo .face::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #9b9b9b;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+}
+.boo .face::before {
+  left: -24px;
+}
+.boo .face::after {
+  right: -24px;
+}
+.shadow {
+  width: 128px;
+  height: 16px;
+  background-color: rgba(234, 234, 234, 0.75);
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  animation: floatingShadow 3s ease-in-out infinite;
+}
